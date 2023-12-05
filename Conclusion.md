@@ -1,5 +1,5 @@
 <ul>
-<li>We have learned many things through this project. We have learned how to:</li>
+<li>We have learned many things through this project. :</li>
 </ul>
 <ol>
 <li>effectively use special registers like the IR the MAR and the PC.</li>
