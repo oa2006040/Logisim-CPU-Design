@@ -10,7 +10,7 @@ Instruction Set:
 ![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/db5e4130-f528-4434-bbc3-92cca556bedc)
 
 OPCODE (MOST 4 DIGITS) |	OPERATION             |
-------------------------------------------------|
+----->                                     <-----
 0000	                 |   HALT                 |
 0001		               |   Register-to- Register|
 0010		               |   Imm-to-register      | 
