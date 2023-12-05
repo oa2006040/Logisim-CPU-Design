@@ -9,17 +9,111 @@ DESIGN CONSTRAINTS: Logisim has an issue when loading a RAM for the first time, 
 Instruction Set:
 ![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/db5e4130-f528-4434-bbc3-92cca556bedc)
 
-OPCODE (MOST 4 DIGITS) |	OPERATION             |
------>                                     <-----
-0000	                 |   HALT                 |
-0001		               |   Register-to- Register|
-0010		               |   Imm-to-register      | 
-0011		               |   Memory-to-Register   |
-0100		               |   Register -to- Memory |
-0101		               |   Add                  |
-0110		               |   Subtract             |
-0111		               |   AND	                |
-1000		               |   Logical Shift Right  | 
-1001		               |   Logical Shift Left   |
-1010                   |   Branch if Zero	      |
-1011                   |   Branch if Carry	    | 
+<table style="width: 678px;">
+<tbody>
+<tr style="height: 48px;">
+<td style="height: 48px; width: 363px;">
+<p><span style="color: #0000ff;"><strong><span style="color: #000080;">OPCODE (MOST 4 DIGITS)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</td>
+<td style="height: 48px; width: 301px;">
+<p><span style="color: #000080;"><strong>OPERATION</strong></span></p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>0000</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>HALT</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>0001</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Register-to- Register</p>
+</td>
+</tr>
+<tr style="height: 35.6667px;">
+<td style="height: 35.6667px; width: 363px;">
+<p>0010</p>
+</td>
+<td style="height: 35.6667px; width: 301px;">
+<p>Imm-to-register</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>0011</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Memory-to-Register</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>0100</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Register -to- Memory</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>0101</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Add</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>0110</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Subtract</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>0111</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>AND&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>1000</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Logical Shift Right</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>1001</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Logical Shift Left</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>1010</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Branch if Zero&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 363px;">
+<p>1011</p>
+</td>
+<td style="height: 35px; width: 301px;">
+<p>Branch if Carry&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
