@@ -56,6 +56,7 @@
 </tbody>
 </table>
 <p>R0 = 5+8-3 = ox0a</p>
+![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/4adc0d54-59f8-4878-b8f0-712358f57401)
 <p>&nbsp;</p>
 <table>
 <tbody>
@@ -102,6 +103,9 @@
 </table>
 <p>[0xaa] = 5</p>
 <p>[0xbb] = 6</p>
+![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/fa7301ca-c8bf-4e49-9a91-8eaf0f19ea01)
+![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/f69c5664-d567-4a39-b7c7-879834c03042)
+
 <p>&nbsp;</p>
 <table>
 <tbody>
@@ -161,8 +165,10 @@
 </tbody>
 </table>
 <p>[0xaa] = 5</p>
+![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/dffa3da3-ca68-46e0-8b03-6ef1c3193175)
 <p>&nbsp;</p>
 <p>5*0xaa = 0x19</p>
+![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/7298c1ec-8d00-44d2-8adb-5d293d11905c)
 <p>&nbsp;</p>
 <table>
 <tbody>
@@ -223,8 +229,12 @@
 </table>
 <p>If [0xaa] = 1</p>
 <p>Meaning odd</p>
+![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/3a105b7f-f531-49eb-b04e-8394aa9c63c2)
+
 <p>If [0xaa] = 8</p>
 <p>meaning even</p>
+![image](https://github.com/oa2006040/logisim-CPU-design/assets/152556993/aa29d431-1f52-42cf-ad43-ddcfe8661e11)
+
 <p>&nbsp;</p>
 <table>
 <tbody>
